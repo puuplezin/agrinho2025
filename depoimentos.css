@@ -1,0 +1,45 @@
+root {
+    --cor-de-fundo: #202125;
+    --verde: #008000;
+    --preta: #000;
+    --branco: #fff;
+    --azul: hsl(219, 36%, 9%);
+    --botao: #010b2256;
+}
+
+body{
+    background-image:linear-gradient(rgb(0, 17, 255), #000) ;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #b3b3b3;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+}
+.rodape{
+    display: grid;
+    grid-template-columns:45% 5% 35% 15%;
+    padding: 10px;
+}
+.imagem-rodape{
+    height: 60px;
+    padding: 12px 0;
+}
+.voltar{
+    background-color: #00000000;
+    color: #fff;
+    width: 50px;
+}
+
+.videos{
+    text-align: center;
+}
+
+.video{
+    width: 300px;
+}
